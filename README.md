@@ -1,10 +1,10 @@
-🎬 Content-based Movie Recommendation Engine
+##🎬 Content-based Movie Recommendation Engine
 This project builds a movie recommendation system that suggests movies similar to a given movie based on genres, cast, keywords, and overview descriptions. It uses TF-IDF vectorization and cosine similarity to find and recommend the closest movies.
 
 
 
 
-🔍 Project Goals
+#🔍 Project Goals
 Load and preprocess movie datasets (metadata and credits).
 
 Extract useful features like genres, cast, keywords, and director.
@@ -20,7 +20,7 @@ Recommend top 5 similar movies based on a user's input movie title.
 
 
 
-📂 Dataset
+#📂 Dataset
 The dataset contains movie metadata and credits from the TMDB (The Movie Database). It includes:
 
 Movie titles, overview, genres, keywords.
@@ -30,7 +30,7 @@ Cast members and crew info (especially directors).
 
 
 
-🚀 Main Steps
+#🚀 Main Steps
 Load and merge movie metadata and credits datasets.
 
 Extract names from JSON-like columns (genres, cast, crew, keywords).
@@ -51,7 +51,7 @@ Interactive command line interface to get recommendations.
 
 
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 Python
 
 Pandas, NumPy
@@ -61,7 +61,7 @@ Scikit-learn (TF-IDF Vectorizer, cosine similarity)
 Pickle (for saving models/data)
 
 
-📦 Installation
+#📦 Installation
 Clone the repository:
 
 bash
@@ -81,11 +81,10 @@ bash
 Copy
 Edit
 python movie_recommender.py
-# or
 jupyter notebook
 
 
-📌 Output
+#📌 Output
 Type a movie name to get a list of 5 recommended movies similar in genre, cast, and overview.
 Example:
 
